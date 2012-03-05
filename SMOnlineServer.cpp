@@ -35,7 +35,7 @@ void SMOnlineServer::LoadFromIni() {
 	if ( !LoadMotd(PREFSMAN->GetValueS("ServerOptions", "MOTD File", "MOTD.txt", true)) ) 
 		LOG->Write("Failed to load MOTD");
 
-	m_useSQL = PREFSMAN->GetValueB("ServerOptions", "EnableSQL", true, true);
+	m_useSQL = PREFSMAN->GetValueB("ServerOptions", "EnableSQL", false, true);
 	m_pingDelay = PREFSMAN->GetValueI("ServerOptions", "PingTime", 60, true);
 	m_isSMLAN = PREFSMAN->GetValueB("ServerOptions", "SMLAN", false, true);
 

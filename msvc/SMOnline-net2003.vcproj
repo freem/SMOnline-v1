@@ -150,13 +150,13 @@
 			Name="Crash handler"
 			Filter="">
 			<File
-				RelativePath="Crash\archCrash.h">
+				RelativePath="..\Crash\archCrash.h">
 			</File>
 			<File
-				RelativePath="Crash\Windows\BACKUPCrash.h">
+				RelativePath="..\Crash\Windows\BACKUPCrash.h">
 			</File>
 			<File
-				RelativePath="Crash\Windows\Crash.cpp">
+				RelativePath="..\Crash\Windows\Crash.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -173,10 +173,10 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="Crash\Windows\Crash.h">
+				RelativePath="..\Crash\Windows\Crash.h">
 			</File>
 			<File
-				RelativePath="Crash\crashDefines.cpp">
+				RelativePath="..\Crash\crashDefines.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -193,10 +193,10 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="Crash\crashDefines.h">
+				RelativePath="..\Crash\crashDefines.h">
 			</File>
 			<File
-				RelativePath="Crash\Windows\RestartProgram.cpp">
+				RelativePath="..\Crash\Windows\RestartProgram.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -213,10 +213,10 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="Crash\Windows\RestartProgram.h">
+				RelativePath="..\Crash\Windows\RestartProgram.h">
 			</File>
 			<File
-				RelativePath="Crash\Windows\verstub.cpp">
+				RelativePath="..\Crash\Windows\verstub.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -233,14 +233,14 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="Crash\Windows\WindowsResources.h">
+				RelativePath="..\Crash\Windows\WindowsResources.h">
 			</File>
 		</Filter>
 		<Filter
 			Name="ezSQL"
 			Filter="">
 			<File
-				RelativePath="ezMySQL.cpp">
+				RelativePath="..\ezMySQL.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -257,10 +257,10 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="ezMySQL.h">
+				RelativePath="..\ezMySQL.h">
 			</File>
 			<File
-				RelativePath="ezMySQLConstants.cpp">
+				RelativePath="..\ezMySQLConstants.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -277,10 +277,10 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="ezMySQLConstants.h">
+				RelativePath="..\ezMySQLConstants.h">
 			</File>
 			<File
-				RelativePath="ezSQL.cpp">
+				RelativePath="..\ezSQL.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -297,10 +297,10 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="ezSQL.h">
+				RelativePath="..\ezSQL.h">
 			</File>
 			<File
-				RelativePath="ezSQLConstants.h">
+				RelativePath="..\ezSQLConstants.h">
 			</File>
 		</Filter>
 		<Filter
@@ -311,7 +311,7 @@
 			Name="SMOnline"
 			Filter="">
 			<File
-				RelativePath="arch_setup.cpp">
+				RelativePath="..\arch_setup.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -328,10 +328,10 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="arch_setup.h">
+				RelativePath="..\arch_setup.h">
 			</File>
 			<File
-				RelativePath="concursor.cpp">
+				RelativePath="..\concursor.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -348,10 +348,10 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="concursor.h">
+				RelativePath="..\concursor.h">
 			</File>
 			<File
-				RelativePath="ConstructCount.cpp">
+				RelativePath="..\ConstructCount.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -368,10 +368,10 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="ConstructCount.h">
+				RelativePath="..\ConstructCount.h">
 			</File>
 			<File
-				RelativePath="ezsockets.cpp">
+				RelativePath="..\ezsockets.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -388,13 +388,13 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="ezsockets.h">
+				RelativePath="..\ezsockets.h">
 			</File>
 			<File
-				RelativePath="global.h">
+				RelativePath="..\global.h">
 			</File>
 			<File
-				RelativePath="JudgeWindow.cpp">
+				RelativePath="..\JudgeWindow.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -411,22 +411,22 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="JudgeWindow.h">
+				RelativePath="..\JudgeWindow.h">
 			</File>
 			<File
-				RelativePath=".\MercuryFiles.cpp">
+				RelativePath="..\.\MercuryFiles.cpp">
 			</File>
 			<File
-				RelativePath=".\MercuryFiles.h">
+				RelativePath="..\.\MercuryFiles.h">
 			</File>
 			<File
-				RelativePath=".\MercuryINI.cpp">
+				RelativePath="..\.\MercuryINI.cpp">
 			</File>
 			<File
-				RelativePath=".\MercuryINI.h">
+				RelativePath="..\.\MercuryINI.h">
 			</File>
 			<File
-				RelativePath="MercuryString.cpp">
+				RelativePath="..\MercuryString.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -443,16 +443,16 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="MercuryString.h">
+				RelativePath="..\MercuryString.h">
 			</File>
 			<File
-				RelativePath=".\MercuryThreads.cpp">
+				RelativePath="..\.\MercuryThreads.cpp">
 			</File>
 			<File
-				RelativePath=".\MercuryThreads.h">
+				RelativePath="..\.\MercuryThreads.h">
 			</File>
 			<File
-				RelativePath="PacketFunctions.cpp">
+				RelativePath="..\PacketFunctions.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -469,10 +469,10 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="PacketFunctions.h">
+				RelativePath="..\PacketFunctions.h">
 			</File>
 			<File
-				RelativePath="RoundInfo.cpp">
+				RelativePath="..\RoundInfo.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -489,10 +489,10 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="RoundInfo.h">
+				RelativePath="..\RoundInfo.h">
 			</File>
 			<File
-				RelativePath="SimpleLog.cpp">
+				RelativePath="..\SimpleLog.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -509,10 +509,10 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="SimpleLog.h">
+				RelativePath="..\SimpleLog.h">
 			</File>
 			<File
-				RelativePath="SMLanPlayers.cpp">
+				RelativePath="..\SMLanPlayers.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -529,10 +529,10 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="SMLanPlayers.h">
+				RelativePath="..\SMLanPlayers.h">
 			</File>
 			<File
-				RelativePath="smonline.cpp">
+				RelativePath="..\smonline.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -549,7 +549,7 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="SMOnlineClient.cpp">
+				RelativePath="..\SMOnlineClient.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -566,10 +566,10 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="SMOnlineClient.h">
+				RelativePath="..\SMOnlineClient.h">
 			</File>
 			<File
-				RelativePath="SMOnlineGameRoom.cpp">
+				RelativePath="..\SMOnlineGameRoom.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -586,10 +586,10 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="SMOnlineGameRoom.h">
+				RelativePath="..\SMOnlineGameRoom.h">
 			</File>
 			<File
-				RelativePath="SMOnlineRoom.cpp">
+				RelativePath="..\SMOnlineRoom.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -606,10 +606,10 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="SMOnlineRoom.h">
+				RelativePath="..\SMOnlineRoom.h">
 			</File>
 			<File
-				RelativePath="SMOnlineServer.cpp">
+				RelativePath="..\SMOnlineServer.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -626,10 +626,10 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="SMOnlineServer.h">
+				RelativePath="..\SMOnlineServer.h">
 			</File>
 			<File
-				RelativePath="SMOnlineSQL.cpp">
+				RelativePath="..\SMOnlineSQL.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -646,10 +646,10 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="SMOnlineSQL.h">
+				RelativePath="..\SMOnlineSQL.h">
 			</File>
 			<File
-				RelativePath="SMOnlineStats.cpp">
+				RelativePath="..\SMOnlineStats.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -666,10 +666,10 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="SMOnlineStats.h">
+				RelativePath="..\SMOnlineStats.h">
 			</File>
 			<File
-				RelativePath="SQLfunctions.cpp">
+				RelativePath="..\SQLfunctions.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
@@ -686,7 +686,7 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="SQLfunctions.h">
+				RelativePath="..\SQLfunctions.h">
 			</File>
 		</Filter>
 	</Files>

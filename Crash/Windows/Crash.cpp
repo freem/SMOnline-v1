@@ -519,8 +519,8 @@ long VDDebugInfoLookupRVA(VDDebugInfoContext *pctx, unsigned rva, char *buf, int
 }
 
 ///////////////////////////////////////////////////////////////////////////
-#include "ddk/dbghelp.h"
-#pragma comment(lib, "crash/windows/ddk/dbghelp.lib")
+#include "./ddk/dbghelp.h"
+//#pragma comment(lib, "Crash/Windows/ddk/dbghelp.lib")
 
 static bool InitDbghelp()
 {
