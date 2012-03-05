@@ -1,0 +1,1154 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		014CEA460018CE2711CA2923 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		014CEA470018CE2711CA2923 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//080
+//081
+//082
+//083
+//084
+		08FB7793FE84155DC02AAC07 = {
+			buildSettings = {
+			};
+			buildStyles = (
+				014CEA460018CE2711CA2923,
+				014CEA470018CE2711CA2923,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 08FB7794FE84155DC02AAC07;
+			projectDirPath = "";
+			targets = (
+				8DD76F620486A84900D96B5E,
+			);
+		};
+		08FB7794FE84155DC02AAC07 = {
+			children = (
+				08FB7795FE84155DC02AAC07,
+				C6859E8C029090F304C91782,
+				1AB674ADFE9D54B511CA2CBB,
+			);
+			isa = PBXGroup;
+			name = xcode;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 = {
+			children = (
+				12BE5CEF085523130052232D,
+				12BE5CF2085523130052232D,
+				12F9EA6908580B9E00D6AFB8,
+				12BE5CF4085523130052232D,
+				12BE5CF6085523130052232D,
+				12BE5CF7085523130052232D,
+				12BE5CF8085523130052232D,
+				12BE5CF9085523130052232D,
+				12BE5CFA085523130052232D,
+				12BE5CFB085523130052232D,
+				12BE5CFC085523130052232D,
+				12BE5CFF085523130052232D,
+				12BE5D00085523130052232D,
+				12BE5D01085523130052232D,
+				12BE5D02085523130052232D,
+				12BE5D03085523130052232D,
+				12BE5D04085523130052232D,
+				12BE5D05085523130052232D,
+				12BE5D06085523130052232D,
+				12BE5D07085523130052232D,
+				12BE5D08085523130052232D,
+				12BE5D09085523130052232D,
+				12BE5D0A085523130052232D,
+				12BE5D0B085523130052232D,
+				12BE5D0C085523130052232D,
+				12BE5D0D085523130052232D,
+				12BE5D0E085523130052232D,
+				12BE5D0F085523130052232D,
+				12BE5D10085523130052232D,
+				12BE5D12085523130052232D,
+				12BE5D13085523130052232D,
+				12BE5D14085523130052232D,
+				12BE5D15085523130052232D,
+				12BE5D16085523130052232D,
+				12BE5D19085523130052232D,
+				12BE5D1A085523130052232D,
+				12BE5D1B085523130052232D,
+				12BE5D1C085523130052232D,
+				12BE5D1D085523130052232D,
+				12BE5D1E085523130052232D,
+				12BE5D1F085523130052232D,
+				12BE5D20085523130052232D,
+				12BE5D21085523130052232D,
+				12BE5D6A085523130052232D,
+				12BE5D6B085523130052232D,
+				12BE5D6C085523130052232D,
+				12BE5D6D085523130052232D,
+				12BE5D6E085523130052232D,
+			);
+			isa = PBXGroup;
+			name = Source;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//080
+//081
+//082
+//083
+//084
+//120
+//121
+//122
+//123
+//124
+		125A500F0862AF0E0097E432 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = Crash.cpp;
+			path = ../Crash/Darwin/Crash.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		125A50100862AF0E0097E432 = {
+			fileRef = 125A500F0862AF0E0097E432;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5CEF085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = RoundInfo.cpp;
+			path = ../RoundInfo.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5CF2085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = ezMySQL.cpp;
+			path = ../ezMySQL.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5CF4085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = SMOnlineIni.cpp;
+			path = ../SMOnlineIni.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5CF6085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = smonline.cpp;
+			path = ../smonline.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5CF7085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = SMOnlineServer.h;
+			path = ../SMOnlineServer.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5CF8085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = SMOnlineServer.cpp;
+			path = ../SMOnlineServer.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5CF9085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = concursor.h;
+			path = ../concursor.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5CFA085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = ConstructCount.cpp;
+			path = ../ConstructCount.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5CFB085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = SimpleLog.h;
+			path = ../SimpleLog.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5CFC085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = SimpleLog.cpp;
+			path = ../SimpleLog.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5CFD085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = MOTD.txt;
+			path = ../MOTD.txt;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5CFF085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = JudgeWindow.h;
+			path = ../JudgeWindow.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D00085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = JudgeWindow.cpp;
+			path = ../JudgeWindow.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D01085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = StdString.h;
+			path = ../StdString.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D02085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = SMOnline.ini;
+			path = ../SMOnline.ini;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D03085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = SMOnlineRoom.h;
+			path = ../SMOnlineRoom.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D04085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = SMOnlineRoom.cpp;
+			path = ../SMOnlineRoom.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D05085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = RoundInfo.h;
+			path = ../RoundInfo.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D06085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ezMySQLConstants.h;
+			path = ../ezMySQLConstants.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D07085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = SMLanPlayers.h;
+			path = ../SMLanPlayers.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D08085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = SMOnlineIni.h;
+			path = ../SMOnlineIni.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D09085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = SMOnlineClient.h;
+			path = ../SMOnlineClient.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D0A085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = SMOnlineClient.cpp;
+			path = ../SMOnlineClient.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D0B085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = SMOnlineSQL.h;
+			path = ../SMOnlineSQL.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D0C085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = PacketFunctions.h;
+			path = ../PacketFunctions.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D0D085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = PacketFunctions.cpp;
+			path = ../PacketFunctions.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D0E085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ezsockets.h;
+			path = ../ezsockets.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D0F085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = ezsockets.cpp;
+			path = ../ezsockets.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D10085523130052232D = {
+			isa = PBXFileReference;
+			lastKnownFileType = archive.macbinary;
+			name = version.bin;
+			path = ../version.bin;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D11085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = "To Do.txt";
+			path = "../To Do.txt";
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D12085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ezMySQL.h;
+			path = ../ezMySQL.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D13085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = ezMySQLConstants.cpp;
+			path = ../ezMySQLConstants.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D14085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = SMLanPlayers.cpp;
+			path = ../SMLanPlayers.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D15085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ezsocketsLog.h;
+			path = ../ezsocketsLog.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D16085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = ezsocketsLog.cpp;
+			path = ../ezsocketsLog.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D19085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = SQLfunctions.h;
+			path = ../SQLfunctions.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D1A085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = SQLfunctions.cpp;
+			path = ../SQLfunctions.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D1B085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ezSQLConstants.h;
+			path = ../ezSQLConstants.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D1C085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = SMOnlineCommands.h;
+			path = ../SMOnlineCommands.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D1D085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = SMOnlineCommands.cpp;
+			path = ../SMOnlineCommands.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D1E085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = arch_setup_darwin.h;
+			path = ../arch_setup_darwin.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D1F085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = SMOnlineGameRoom.h;
+			path = ../SMOnlineGameRoom.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D20085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = SMOnlineGameRoom.cpp;
+			path = ../SMOnlineGameRoom.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D21085523130052232D = {
+			children = (
+				12BE5D22085523130052232D,
+				12BE5D23085523130052232D,
+				12BE5D24085523130052232D,
+				12BE5D25085523130052232D,
+				12BE5D53085523130052232D,
+			);
+			isa = PBXGroup;
+			name = Crash;
+			path = ../Crash;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D22085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = archCrash.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		12BE5D23085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = crashDefines.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		12BE5D24085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = crashDefines.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		12BE5D25085523130052232D = {
+			children = (
+				12BE5D26085523130052232D,
+				125A500F0862AF0E0097E432,
+				12BE5D27085523130052232D,
+			);
+			isa = PBXGroup;
+			path = Darwin;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		12BE5D26085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = arch_setup.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		12BE5D27085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = Crash.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		12BE5D53085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = StdString.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		12BE5D6A085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = concursor.cpp;
+			path = ../concursor.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D6B085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ConstructCount.h;
+			path = ../ConstructCount.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D6C085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ezSQL.h;
+			path = ../ezSQL.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D6D085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = ezSQL.cpp;
+			path = ../ezSQL.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D6E085523130052232D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = SMOnlineSQL.cpp;
+			path = ../SMOnlineSQL.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D6F085523130052232D = {
+			fileRef = 12BE5CEF085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D72085523130052232D = {
+			fileRef = 12BE5CF2085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D74085523130052232D = {
+			fileRef = 12BE5CF4085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D76085523130052232D = {
+			fileRef = 12BE5CF6085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D77085523130052232D = {
+			fileRef = 12BE5CF7085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D78085523130052232D = {
+			fileRef = 12BE5CF8085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D79085523130052232D = {
+			fileRef = 12BE5CF9085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D7A085523130052232D = {
+			fileRef = 12BE5CFA085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D7B085523130052232D = {
+			fileRef = 12BE5CFB085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D7C085523130052232D = {
+			fileRef = 12BE5CFC085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D7D085523130052232D = {
+			fileRef = 12BE5CFD085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D7F085523130052232D = {
+			fileRef = 12BE5CFF085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D80085523130052232D = {
+			fileRef = 12BE5D00085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D81085523130052232D = {
+			fileRef = 12BE5D01085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D82085523130052232D = {
+			fileRef = 12BE5D02085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D83085523130052232D = {
+			fileRef = 12BE5D03085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D84085523130052232D = {
+			fileRef = 12BE5D04085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D85085523130052232D = {
+			fileRef = 12BE5D05085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D86085523130052232D = {
+			fileRef = 12BE5D06085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D87085523130052232D = {
+			fileRef = 12BE5D07085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D88085523130052232D = {
+			fileRef = 12BE5D08085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D89085523130052232D = {
+			fileRef = 12BE5D09085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D8A085523130052232D = {
+			fileRef = 12BE5D0A085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D8B085523130052232D = {
+			fileRef = 12BE5D0B085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D8C085523130052232D = {
+			fileRef = 12BE5D0C085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D8D085523130052232D = {
+			fileRef = 12BE5D0D085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D8E085523130052232D = {
+			fileRef = 12BE5D0E085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D8F085523130052232D = {
+			fileRef = 12BE5D0F085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D90085523130052232D = {
+			fileRef = 12BE5D10085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D91085523130052232D = {
+			fileRef = 12BE5D11085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D92085523130052232D = {
+			fileRef = 12BE5D12085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D93085523130052232D = {
+			fileRef = 12BE5D13085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D94085523130052232D = {
+			fileRef = 12BE5D14085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D95085523130052232D = {
+			fileRef = 12BE5D15085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D96085523130052232D = {
+			fileRef = 12BE5D16085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D99085523130052232D = {
+			fileRef = 12BE5D19085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D9A085523130052232D = {
+			fileRef = 12BE5D1A085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D9B085523130052232D = {
+			fileRef = 12BE5D1B085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D9C085523130052232D = {
+			fileRef = 12BE5D1C085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D9D085523130052232D = {
+			fileRef = 12BE5D1D085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D9E085523130052232D = {
+			fileRef = 12BE5D1E085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5D9F085523130052232D = {
+			fileRef = 12BE5D1F085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5DA0085523130052232D = {
+			fileRef = 12BE5D20085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5DA1085523130052232D = {
+			fileRef = 12BE5D22085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5DA2085523130052232D = {
+			fileRef = 12BE5D23085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5DA3085523130052232D = {
+			fileRef = 12BE5D24085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5DA4085523130052232D = {
+			fileRef = 12BE5D26085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5DA5085523130052232D = {
+			fileRef = 12BE5D27085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5DCF085523130052232D = {
+			fileRef = 12BE5D53085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5DE3085523130052232D = {
+			fileRef = 12BE5D6A085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5DE4085523130052232D = {
+			fileRef = 12BE5D6B085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5DE5085523130052232D = {
+			fileRef = 12BE5D6C085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5DE6085523130052232D = {
+			fileRef = 12BE5D6D085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12BE5DE7085523130052232D = {
+			fileRef = 12BE5D6E085523130052232D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12F9EA010857EB0800D6AFB8 = {
+			explicitFileType = "compiled.mach-o.executable";
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = smonline;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		12F9EA6908580B9E00D6AFB8 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = Crash.cpp;
+			path = ../Crash/Darwin/Crash.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		12F9EA6A08580B9E00D6AFB8 = {
+			fileRef = 12F9EA6908580B9E00D6AFB8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//120
+//121
+//122
+//123
+//124
+//1A0
+//1A1
+//1A2
+//1A3
+//1A4
+		1AB674ADFE9D54B511CA2CBB = {
+			children = (
+				12F9EA010857EB0800D6AFB8,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//1A0
+//1A1
+//1A2
+//1A3
+//1A4
+//8D0
+//8D1
+//8D2
+//8D3
+//8D4
+		8DD76F620486A84900D96B5E = {
+			buildPhases = (
+				8DD76F640486A84900D96B5E,
+				8DD76F660486A84900D96B5E,
+				8DD76F690486A84900D96B5E,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = /Volumes/Storage/SMOnline/Crash/Windows/ddk;
+				PREBINDING = NO;
+				PRODUCT_NAME = smonline;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = smonline;
+			productInstallPath = "$(HOME)/bin";
+			productName = xcode;
+			productReference = 12F9EA010857EB0800D6AFB8;
+			productType = "com.apple.product-type.tool";
+		};
+		8DD76F640486A84900D96B5E = {
+			buildActionMask = 2147483647;
+			files = (
+				12BE5D6F085523130052232D,
+				12BE5D72085523130052232D,
+				12BE5D74085523130052232D,
+				12BE5D76085523130052232D,
+				12BE5D78085523130052232D,
+				12BE5D7A085523130052232D,
+				12BE5D7C085523130052232D,
+				12BE5D80085523130052232D,
+				12BE5D84085523130052232D,
+				12BE5D8A085523130052232D,
+				12BE5D8D085523130052232D,
+				12BE5D8F085523130052232D,
+				12BE5D93085523130052232D,
+				12BE5D94085523130052232D,
+				12BE5D96085523130052232D,
+				12BE5D9A085523130052232D,
+				12BE5D9D085523130052232D,
+				12BE5DA0085523130052232D,
+				12BE5DA2085523130052232D,
+				12BE5DE3085523130052232D,
+				12BE5DE6085523130052232D,
+				12BE5DE7085523130052232D,
+				12F9EA6A08580B9E00D6AFB8,
+				125A50100862AF0E0097E432,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F660486A84900D96B5E = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F690486A84900D96B5E = {
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				12BE5D77085523130052232D,
+				12BE5D79085523130052232D,
+				12BE5D7B085523130052232D,
+				12BE5D7D085523130052232D,
+				12BE5D7F085523130052232D,
+				12BE5D81085523130052232D,
+				12BE5D82085523130052232D,
+				12BE5D83085523130052232D,
+				12BE5D85085523130052232D,
+				12BE5D86085523130052232D,
+				12BE5D87085523130052232D,
+				12BE5D88085523130052232D,
+				12BE5D89085523130052232D,
+				12BE5D8B085523130052232D,
+				12BE5D8C085523130052232D,
+				12BE5D8E085523130052232D,
+				12BE5D90085523130052232D,
+				12BE5D91085523130052232D,
+				12BE5D92085523130052232D,
+				12BE5D95085523130052232D,
+				12BE5D99085523130052232D,
+				12BE5D9B085523130052232D,
+				12BE5D9C085523130052232D,
+				12BE5D9E085523130052232D,
+				12BE5D9F085523130052232D,
+				12BE5DA1085523130052232D,
+				12BE5DA3085523130052232D,
+				12BE5DA4085523130052232D,
+				12BE5DA5085523130052232D,
+				12BE5DCF085523130052232D,
+				12BE5DE4085523130052232D,
+				12BE5DE5085523130052232D,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+//8D0
+//8D1
+//8D2
+//8D3
+//8D4
+//C60
+//C61
+//C62
+//C63
+//C64
+		C6859E8C029090F304C91782 = {
+			children = (
+				12BE5D11085523130052232D,
+				12BE5CFD085523130052232D,
+			);
+			isa = PBXGroup;
+			name = Documentation;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+	};
+	rootObject = 08FB7793FE84155DC02AAC07;
+}

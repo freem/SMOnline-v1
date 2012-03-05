@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		125A50100862AF0E0097E432 /* Crash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 125A500F0862AF0E0097E432 /* Crash.cpp */; };
+		12BE5D6F085523130052232D /* RoundInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5CEF085523130052232D /* RoundInfo.cpp */; };
+		12BE5D72085523130052232D /* ezMySQL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5CF2085523130052232D /* ezMySQL.cpp */; };
+		12BE5D74085523130052232D /* SMOnlineIni.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5CF4085523130052232D /* SMOnlineIni.cpp */; };
+		12BE5D76085523130052232D /* smonline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5CF6085523130052232D /* smonline.cpp */; };
+		12BE5D77085523130052232D /* SMOnlineServer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5CF7085523130052232D /* SMOnlineServer.h */; };
+		12BE5D78085523130052232D /* SMOnlineServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5CF8085523130052232D /* SMOnlineServer.cpp */; };
+		12BE5D79085523130052232D /* concursor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5CF9085523130052232D /* concursor.h */; };
+		12BE5D7A085523130052232D /* ConstructCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5CFA085523130052232D /* ConstructCount.cpp */; };
+		12BE5D7B085523130052232D /* SimpleLog.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5CFB085523130052232D /* SimpleLog.h */; };
+		12BE5D7C085523130052232D /* SimpleLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5CFC085523130052232D /* SimpleLog.cpp */; };
+		12BE5D7D085523130052232D /* MOTD.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5CFD085523130052232D /* MOTD.txt */; };
+		12BE5D7F085523130052232D /* JudgeWindow.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5CFF085523130052232D /* JudgeWindow.h */; };
+		12BE5D80085523130052232D /* JudgeWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5D00085523130052232D /* JudgeWindow.cpp */; };
+		12BE5D81085523130052232D /* StdString.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D01085523130052232D /* StdString.h */; };
+		12BE5D82085523130052232D /* SMOnline.ini in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D02085523130052232D /* SMOnline.ini */; };
+		12BE5D83085523130052232D /* SMOnlineRoom.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D03085523130052232D /* SMOnlineRoom.h */; };
+		12BE5D84085523130052232D /* SMOnlineRoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5D04085523130052232D /* SMOnlineRoom.cpp */; };
+		12BE5D85085523130052232D /* RoundInfo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D05085523130052232D /* RoundInfo.h */; };
+		12BE5D86085523130052232D /* ezMySQLConstants.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D06085523130052232D /* ezMySQLConstants.h */; };
+		12BE5D87085523130052232D /* SMLanPlayers.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D07085523130052232D /* SMLanPlayers.h */; };
+		12BE5D88085523130052232D /* SMOnlineIni.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D08085523130052232D /* SMOnlineIni.h */; };
+		12BE5D89085523130052232D /* SMOnlineClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D09085523130052232D /* SMOnlineClient.h */; };
+		12BE5D8A085523130052232D /* SMOnlineClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5D0A085523130052232D /* SMOnlineClient.cpp */; };
+		12BE5D8B085523130052232D /* SMOnlineSQL.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D0B085523130052232D /* SMOnlineSQL.h */; };
+		12BE5D8C085523130052232D /* PacketFunctions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D0C085523130052232D /* PacketFunctions.h */; };
+		12BE5D8D085523130052232D /* PacketFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5D0D085523130052232D /* PacketFunctions.cpp */; };
+		12BE5D8E085523130052232D /* ezsockets.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D0E085523130052232D /* ezsockets.h */; };
+		12BE5D8F085523130052232D /* ezsockets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5D0F085523130052232D /* ezsockets.cpp */; };
+		12BE5D90085523130052232D /* version.bin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D10085523130052232D /* version.bin */; };
+		12BE5D91085523130052232D /* To Do.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D11085523130052232D /* To Do.txt */; };
+		12BE5D92085523130052232D /* ezMySQL.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D12085523130052232D /* ezMySQL.h */; };
+		12BE5D93085523130052232D /* ezMySQLConstants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5D13085523130052232D /* ezMySQLConstants.cpp */; };
+		12BE5D94085523130052232D /* SMLanPlayers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5D14085523130052232D /* SMLanPlayers.cpp */; };
+		12BE5D99085523130052232D /* SQLfunctions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D19085523130052232D /* SQLfunctions.h */; };
+		12BE5D9A085523130052232D /* SQLfunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5D1A085523130052232D /* SQLfunctions.cpp */; };
+		12BE5D9B085523130052232D /* ezSQLConstants.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D1B085523130052232D /* ezSQLConstants.h */; };
+		12BE5D9C085523130052232D /* SMOnlineCommands.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D1C085523130052232D /* SMOnlineCommands.h */; };
+		12BE5D9D085523130052232D /* SMOnlineCommands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5D1D085523130052232D /* SMOnlineCommands.cpp */; };
+		12BE5D9E085523130052232D /* arch_setup_darwin.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D1E085523130052232D /* arch_setup_darwin.h */; };
+		12BE5D9F085523130052232D /* SMOnlineGameRoom.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D1F085523130052232D /* SMOnlineGameRoom.h */; };
+		12BE5DA0085523130052232D /* SMOnlineGameRoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5D20085523130052232D /* SMOnlineGameRoom.cpp */; };
+		12BE5DA1085523130052232D /* archCrash.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D22085523130052232D /* archCrash.h */; };
+		12BE5DA2085523130052232D /* crashDefines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5D23085523130052232D /* crashDefines.cpp */; };
+		12BE5DA3085523130052232D /* crashDefines.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D24085523130052232D /* crashDefines.h */; };
+		12BE5DA4085523130052232D /* arch_setup.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D26085523130052232D /* arch_setup.h */; };
+		12BE5DA5085523130052232D /* Crash.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D27085523130052232D /* Crash.h */; };
+		12BE5DCF085523130052232D /* StdString.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D53085523130052232D /* StdString.h */; };
+		12BE5DE3085523130052232D /* concursor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5D6A085523130052232D /* concursor.cpp */; };
+		12BE5DE4085523130052232D /* ConstructCount.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D6B085523130052232D /* ConstructCount.h */; };
+		12BE5DE5085523130052232D /* ezSQL.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12BE5D6C085523130052232D /* ezSQL.h */; };
+		12BE5DE6085523130052232D /* ezSQL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5D6D085523130052232D /* ezSQL.cpp */; };
+		12BE5DE7085523130052232D /* SMOnlineSQL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12BE5D6E085523130052232D /* SMOnlineSQL.cpp */; };
+		12F9EA6A08580B9E00D6AFB8 /* Crash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12F9EA6908580B9E00D6AFB8 /* Crash.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		123B0BA5088C27F20070B0A6 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.gcc.3_3;
+			fileType = sourcecode.cpp;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXBuildStyle section */
+		014CEA460018CE2711CA2923 /* Development */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		014CEA470018CE2711CA2923 /* Deployment */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				12BE5D77085523130052232D /* SMOnlineServer.h in CopyFiles */,
+				12BE5D79085523130052232D /* concursor.h in CopyFiles */,
+				12BE5D7B085523130052232D /* SimpleLog.h in CopyFiles */,
+				12BE5D7D085523130052232D /* MOTD.txt in CopyFiles */,
+				12BE5D7F085523130052232D /* JudgeWindow.h in CopyFiles */,
+				12BE5D81085523130052232D /* StdString.h in CopyFiles */,
+				12BE5D82085523130052232D /* SMOnline.ini in CopyFiles */,
+				12BE5D83085523130052232D /* SMOnlineRoom.h in CopyFiles */,
+				12BE5D85085523130052232D /* RoundInfo.h in CopyFiles */,
+				12BE5D86085523130052232D /* ezMySQLConstants.h in CopyFiles */,
+				12BE5D87085523130052232D /* SMLanPlayers.h in CopyFiles */,
+				12BE5D88085523130052232D /* SMOnlineIni.h in CopyFiles */,
+				12BE5D89085523130052232D /* SMOnlineClient.h in CopyFiles */,
+				12BE5D8B085523130052232D /* SMOnlineSQL.h in CopyFiles */,
+				12BE5D8C085523130052232D /* PacketFunctions.h in CopyFiles */,
+				12BE5D8E085523130052232D /* ezsockets.h in CopyFiles */,
+				12BE5D90085523130052232D /* version.bin in CopyFiles */,
+				12BE5D91085523130052232D /* To Do.txt in CopyFiles */,
+				12BE5D92085523130052232D /* ezMySQL.h in CopyFiles */,
+				12BE5D99085523130052232D /* SQLfunctions.h in CopyFiles */,
+				12BE5D9B085523130052232D /* ezSQLConstants.h in CopyFiles */,
+				12BE5D9C085523130052232D /* SMOnlineCommands.h in CopyFiles */,
+				12BE5D9E085523130052232D /* arch_setup_darwin.h in CopyFiles */,
+				12BE5D9F085523130052232D /* SMOnlineGameRoom.h in CopyFiles */,
+				12BE5DA1085523130052232D /* archCrash.h in CopyFiles */,
+				12BE5DA3085523130052232D /* crashDefines.h in CopyFiles */,
+				12BE5DA4085523130052232D /* arch_setup.h in CopyFiles */,
+				12BE5DA5085523130052232D /* Crash.h in CopyFiles */,
+				12BE5DCF085523130052232D /* StdString.h in CopyFiles */,
+				12BE5DE4085523130052232D /* ConstructCount.h in CopyFiles */,
+				12BE5DE5085523130052232D /* ezSQL.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		125A500F0862AF0E0097E432 /* Crash.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Crash.cpp; path = ../Crash/Darwin/Crash.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5CEF085523130052232D /* RoundInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = RoundInfo.cpp; path = ../RoundInfo.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5CF2085523130052232D /* ezMySQL.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ezMySQL.cpp; path = ../ezMySQL.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5CF4085523130052232D /* SMOnlineIni.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SMOnlineIni.cpp; path = ../SMOnlineIni.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5CF6085523130052232D /* smonline.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = smonline.cpp; path = ../smonline.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5CF7085523130052232D /* SMOnlineServer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SMOnlineServer.h; path = ../SMOnlineServer.h; sourceTree = SOURCE_ROOT; };
+		12BE5CF8085523130052232D /* SMOnlineServer.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SMOnlineServer.cpp; path = ../SMOnlineServer.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5CF9085523130052232D /* concursor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = concursor.h; path = ../concursor.h; sourceTree = SOURCE_ROOT; };
+		12BE5CFA085523130052232D /* ConstructCount.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConstructCount.cpp; path = ../ConstructCount.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5CFB085523130052232D /* SimpleLog.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SimpleLog.h; path = ../SimpleLog.h; sourceTree = SOURCE_ROOT; };
+		12BE5CFC085523130052232D /* SimpleLog.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleLog.cpp; path = ../SimpleLog.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5CFD085523130052232D /* MOTD.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = MOTD.txt; path = ../MOTD.txt; sourceTree = SOURCE_ROOT; };
+		12BE5CFF085523130052232D /* JudgeWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = JudgeWindow.h; path = ../JudgeWindow.h; sourceTree = SOURCE_ROOT; };
+		12BE5D00085523130052232D /* JudgeWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = JudgeWindow.cpp; path = ../JudgeWindow.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5D01085523130052232D /* StdString.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = StdString.h; path = ../StdString.h; sourceTree = SOURCE_ROOT; };
+		12BE5D02085523130052232D /* SMOnline.ini */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = SMOnline.ini; path = ../SMOnline.ini; sourceTree = SOURCE_ROOT; };
+		12BE5D03085523130052232D /* SMOnlineRoom.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SMOnlineRoom.h; path = ../SMOnlineRoom.h; sourceTree = SOURCE_ROOT; };
+		12BE5D04085523130052232D /* SMOnlineRoom.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SMOnlineRoom.cpp; path = ../SMOnlineRoom.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5D05085523130052232D /* RoundInfo.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = RoundInfo.h; path = ../RoundInfo.h; sourceTree = SOURCE_ROOT; };
+		12BE5D06085523130052232D /* ezMySQLConstants.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ezMySQLConstants.h; path = ../ezMySQLConstants.h; sourceTree = SOURCE_ROOT; };
+		12BE5D07085523130052232D /* SMLanPlayers.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SMLanPlayers.h; path = ../SMLanPlayers.h; sourceTree = SOURCE_ROOT; };
+		12BE5D08085523130052232D /* SMOnlineIni.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SMOnlineIni.h; path = ../SMOnlineIni.h; sourceTree = SOURCE_ROOT; };
+		12BE5D09085523130052232D /* SMOnlineClient.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SMOnlineClient.h; path = ../SMOnlineClient.h; sourceTree = SOURCE_ROOT; };
+		12BE5D0A085523130052232D /* SMOnlineClient.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SMOnlineClient.cpp; path = ../SMOnlineClient.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5D0B085523130052232D /* SMOnlineSQL.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SMOnlineSQL.h; path = ../SMOnlineSQL.h; sourceTree = SOURCE_ROOT; };
+		12BE5D0C085523130052232D /* PacketFunctions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PacketFunctions.h; path = ../PacketFunctions.h; sourceTree = SOURCE_ROOT; };
+		12BE5D0D085523130052232D /* PacketFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PacketFunctions.cpp; path = ../PacketFunctions.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5D0E085523130052232D /* ezsockets.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ezsockets.h; path = ../ezsockets.h; sourceTree = SOURCE_ROOT; };
+		12BE5D0F085523130052232D /* ezsockets.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ezsockets.cpp; path = ../ezsockets.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5D10085523130052232D /* version.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; name = version.bin; path = ../version.bin; sourceTree = SOURCE_ROOT; };
+		12BE5D11085523130052232D /* To Do.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = "To Do.txt"; path = "../To Do.txt"; sourceTree = SOURCE_ROOT; };
+		12BE5D12085523130052232D /* ezMySQL.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ezMySQL.h; path = ../ezMySQL.h; sourceTree = SOURCE_ROOT; };
+		12BE5D13085523130052232D /* ezMySQLConstants.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ezMySQLConstants.cpp; path = ../ezMySQLConstants.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5D14085523130052232D /* SMLanPlayers.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SMLanPlayers.cpp; path = ../SMLanPlayers.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5D19085523130052232D /* SQLfunctions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SQLfunctions.h; path = ../SQLfunctions.h; sourceTree = SOURCE_ROOT; };
+		12BE5D1A085523130052232D /* SQLfunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SQLfunctions.cpp; path = ../SQLfunctions.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5D1B085523130052232D /* ezSQLConstants.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ezSQLConstants.h; path = ../ezSQLConstants.h; sourceTree = SOURCE_ROOT; };
+		12BE5D1C085523130052232D /* SMOnlineCommands.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SMOnlineCommands.h; path = ../SMOnlineCommands.h; sourceTree = SOURCE_ROOT; };
+		12BE5D1D085523130052232D /* SMOnlineCommands.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SMOnlineCommands.cpp; path = ../SMOnlineCommands.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5D1E085523130052232D /* arch_setup_darwin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = arch_setup_darwin.h; path = ../arch_setup_darwin.h; sourceTree = SOURCE_ROOT; };
+		12BE5D1F085523130052232D /* SMOnlineGameRoom.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SMOnlineGameRoom.h; path = ../SMOnlineGameRoom.h; sourceTree = SOURCE_ROOT; };
+		12BE5D20085523130052232D /* SMOnlineGameRoom.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SMOnlineGameRoom.cpp; path = ../SMOnlineGameRoom.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5D22085523130052232D /* archCrash.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = archCrash.h; sourceTree = "<group>"; };
+		12BE5D23085523130052232D /* crashDefines.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = crashDefines.cpp; sourceTree = "<group>"; };
+		12BE5D24085523130052232D /* crashDefines.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = crashDefines.h; sourceTree = "<group>"; };
+		12BE5D26085523130052232D /* arch_setup.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = arch_setup.h; sourceTree = "<group>"; };
+		12BE5D27085523130052232D /* Crash.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Crash.h; sourceTree = "<group>"; };
+		12BE5D53085523130052232D /* StdString.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = StdString.h; sourceTree = "<group>"; };
+		12BE5D6A085523130052232D /* concursor.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = concursor.cpp; path = ../concursor.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5D6B085523130052232D /* ConstructCount.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ConstructCount.h; path = ../ConstructCount.h; sourceTree = SOURCE_ROOT; };
+		12BE5D6C085523130052232D /* ezSQL.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ezSQL.h; path = ../ezSQL.h; sourceTree = SOURCE_ROOT; };
+		12BE5D6D085523130052232D /* ezSQL.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ezSQL.cpp; path = ../ezSQL.cpp; sourceTree = SOURCE_ROOT; };
+		12BE5D6E085523130052232D /* SMOnlineSQL.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SMOnlineSQL.cpp; path = ../SMOnlineSQL.cpp; sourceTree = SOURCE_ROOT; };
+		12F9EA010857EB0800D6AFB8 /* smonline */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = smonline; sourceTree = BUILT_PRODUCTS_DIR; };
+		12F9EA6908580B9E00D6AFB8 /* Crash.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Crash.cpp; path = ../Crash/Darwin/Crash.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* xcode */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = xcode;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				12BE5CEF085523130052232D /* RoundInfo.cpp */,
+				12BE5CF2085523130052232D /* ezMySQL.cpp */,
+				12F9EA6908580B9E00D6AFB8 /* Crash.cpp */,
+				12BE5CF4085523130052232D /* SMOnlineIni.cpp */,
+				12BE5CF6085523130052232D /* smonline.cpp */,
+				12BE5CF7085523130052232D /* SMOnlineServer.h */,
+				12BE5CF8085523130052232D /* SMOnlineServer.cpp */,
+				12BE5CF9085523130052232D /* concursor.h */,
+				12BE5CFA085523130052232D /* ConstructCount.cpp */,
+				12BE5CFB085523130052232D /* SimpleLog.h */,
+				12BE5CFC085523130052232D /* SimpleLog.cpp */,
+				12BE5CFF085523130052232D /* JudgeWindow.h */,
+				12BE5D00085523130052232D /* JudgeWindow.cpp */,
+				12BE5D01085523130052232D /* StdString.h */,
+				12BE5D02085523130052232D /* SMOnline.ini */,
+				12BE5D03085523130052232D /* SMOnlineRoom.h */,
+				12BE5D04085523130052232D /* SMOnlineRoom.cpp */,
+				12BE5D05085523130052232D /* RoundInfo.h */,
+				12BE5D06085523130052232D /* ezMySQLConstants.h */,
+				12BE5D07085523130052232D /* SMLanPlayers.h */,
+				12BE5D08085523130052232D /* SMOnlineIni.h */,
+				12BE5D09085523130052232D /* SMOnlineClient.h */,
+				12BE5D0A085523130052232D /* SMOnlineClient.cpp */,
+				12BE5D0B085523130052232D /* SMOnlineSQL.h */,
+				12BE5D0C085523130052232D /* PacketFunctions.h */,
+				12BE5D0D085523130052232D /* PacketFunctions.cpp */,
+				12BE5D0E085523130052232D /* ezsockets.h */,
+				12BE5D0F085523130052232D /* ezsockets.cpp */,
+				12BE5D10085523130052232D /* version.bin */,
+				12BE5D12085523130052232D /* ezMySQL.h */,
+				12BE5D13085523130052232D /* ezMySQLConstants.cpp */,
+				12BE5D14085523130052232D /* SMLanPlayers.cpp */,
+				12BE5D19085523130052232D /* SQLfunctions.h */,
+				12BE5D1A085523130052232D /* SQLfunctions.cpp */,
+				12BE5D1B085523130052232D /* ezSQLConstants.h */,
+				12BE5D1C085523130052232D /* SMOnlineCommands.h */,
+				12BE5D1D085523130052232D /* SMOnlineCommands.cpp */,
+				12BE5D1E085523130052232D /* arch_setup_darwin.h */,
+				12BE5D1F085523130052232D /* SMOnlineGameRoom.h */,
+				12BE5D20085523130052232D /* SMOnlineGameRoom.cpp */,
+				12BE5D21085523130052232D /* Crash */,
+				12BE5D6A085523130052232D /* concursor.cpp */,
+				12BE5D6B085523130052232D /* ConstructCount.h */,
+				12BE5D6C085523130052232D /* ezSQL.h */,
+				12BE5D6D085523130052232D /* ezSQL.cpp */,
+				12BE5D6E085523130052232D /* SMOnlineSQL.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		12BE5D21085523130052232D /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				12BE5D22085523130052232D /* archCrash.h */,
+				12BE5D23085523130052232D /* crashDefines.cpp */,
+				12BE5D24085523130052232D /* crashDefines.h */,
+				12BE5D25085523130052232D /* Darwin */,
+				12BE5D53085523130052232D /* StdString.h */,
+			);
+			name = Crash;
+			path = ../Crash;
+			sourceTree = SOURCE_ROOT;
+		};
+		12BE5D25085523130052232D /* Darwin */ = {
+			isa = PBXGroup;
+			children = (
+				12BE5D26085523130052232D /* arch_setup.h */,
+				125A500F0862AF0E0097E432 /* Crash.cpp */,
+				12BE5D27085523130052232D /* Crash.h */,
+			);
+			path = Darwin;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12F9EA010857EB0800D6AFB8 /* smonline */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				12BE5D11085523130052232D /* To Do.txt */,
+				12BE5CFD085523130052232D /* MOTD.txt */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* smonline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 123B0B95088C27370070B0A6 /* Build configuration list for PBXNativeTarget "smonline" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+				123B0BA5088C27F20070B0A6 /* PBXBuildRule */,
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = /Volumes/Storage/SMOnline/Crash/Windows/ddk;
+				PREBINDING = NO;
+				PRODUCT_NAME = smonline;
+			};
+			dependencies = (
+			);
+			name = smonline;
+			productInstallPath = "$(HOME)/bin";
+			productName = xcode;
+			productReference = 12F9EA010857EB0800D6AFB8 /* smonline */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 123B0B99088C27370070B0A6 /* Build configuration list for PBXProject "smonline" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				014CEA460018CE2711CA2923 /* Development */,
+				014CEA470018CE2711CA2923 /* Deployment */,
+			);
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* xcode */;
+			projectDirPath = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* smonline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BE5D6F085523130052232D /* RoundInfo.cpp in Sources */,
+				12BE5D72085523130052232D /* ezMySQL.cpp in Sources */,
+				12BE5D74085523130052232D /* SMOnlineIni.cpp in Sources */,
+				12BE5D76085523130052232D /* smonline.cpp in Sources */,
+				12BE5D78085523130052232D /* SMOnlineServer.cpp in Sources */,
+				12BE5D7A085523130052232D /* ConstructCount.cpp in Sources */,
+				12BE5D7C085523130052232D /* SimpleLog.cpp in Sources */,
+				12BE5D80085523130052232D /* JudgeWindow.cpp in Sources */,
+				12BE5D84085523130052232D /* SMOnlineRoom.cpp in Sources */,
+				12BE5D8A085523130052232D /* SMOnlineClient.cpp in Sources */,
+				12BE5D8D085523130052232D /* PacketFunctions.cpp in Sources */,
+				12BE5D8F085523130052232D /* ezsockets.cpp in Sources */,
+				12BE5D93085523130052232D /* ezMySQLConstants.cpp in Sources */,
+				12BE5D94085523130052232D /* SMLanPlayers.cpp in Sources */,
+				12BE5D9A085523130052232D /* SQLfunctions.cpp in Sources */,
+				12BE5D9D085523130052232D /* SMOnlineCommands.cpp in Sources */,
+				12BE5DA0085523130052232D /* SMOnlineGameRoom.cpp in Sources */,
+				12BE5DA2085523130052232D /* crashDefines.cpp in Sources */,
+				12BE5DE3085523130052232D /* concursor.cpp in Sources */,
+				12BE5DE6085523130052232D /* ezSQL.cpp in Sources */,
+				12BE5DE7085523130052232D /* SMOnlineSQL.cpp in Sources */,
+				12F9EA6A08580B9E00D6AFB8 /* Crash.cpp in Sources */,
+				125A50100862AF0E0097E432 /* Crash.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		123B0B96088C27370070B0A6 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = /Volumes/Storage/SMOnline/Crash/Windows/ddk;
+				PREBINDING = NO;
+				PRODUCT_NAME = smonline;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		123B0B97088C27370070B0A6 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = /Volumes/Storage/SMOnline/Crash/Windows/ddk;
+				PREBINDING = NO;
+				PRODUCT_NAME = smonline;
+				ZERO_LINK = YES;
+			};
+			name = Deployment;
+		};
+		123B0B98088C27370070B0A6 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = /Volumes/Storage/SMOnline/Crash/Windows/ddk;
+				PREBINDING = NO;
+				PRODUCT_NAME = smonline;
+				ZERO_LINK = YES;
+			};
+			name = Default;
+		};
+		123B0B9A088C27370070B0A6 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		123B0B9B088C27370070B0A6 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		123B0B9C088C27370070B0A6 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		123B0B95088C27370070B0A6 /* Build configuration list for PBXNativeTarget "smonline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123B0B96088C27370070B0A6 /* Development */,
+				123B0B97088C27370070B0A6 /* Deployment */,
+				123B0B98088C27370070B0A6 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		123B0B99088C27370070B0A6 /* Build configuration list for PBXProject "smonline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123B0B9A088C27370070B0A6 /* Development */,
+				123B0B9B088C27370070B0A6 /* Deployment */,
+				123B0B9C088C27370070B0A6 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

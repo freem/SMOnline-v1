@@ -1,0 +1,47 @@
+(done)Fix name switch when player backed out and came back in room (sorting bug)
+
+(done)Add Lock room when game is in progress
+
+(done)Fix Song select Permission message
+
+(done) Crash on exit
+
+(done) Only allow creation of rooms in certain rooms
+
+(gone?) Fix perminate scroll in eval screen with 2 players
+
+(done) Put SMOnlineIni file in smonline.cpp with main
+
+(done) mySQL interface
+
+(done) Password and username relay
+
+(done) mySQL stats update method
+
+(done) server messages
+
+(done) stats sorting
+
+(DONE)TIMING
+
+(done)Fix new connection and login method
+
+(done)Player 1 displayed as list name in lobby (fixes if leave and come back)
+
+(done)fix server crash if enter pressed right after login
+
+(done)fix player mapping if player 1 was not first to connect
+
+(done by charles) Code a new mySQL API library.
+
+(gone??)automatically entered game
+
+(done)Fix Linux Compile
+
+(done)Fix busted Lack message
+
+(done)Report back from PM.
+
+Finish transition to user name parser
+
+write a function to take into account timing skew

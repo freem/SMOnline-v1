@@ -1,0 +1,107 @@
+-- phpMyAdmin SQL Dump
+-- version 2.6.4-pl2
+-- http://www.phpmyadmin.net
+-- 
+-- Host: localhost
+-- Generation Time: Aug 09, 2006 at 09:42 AM
+-- Server version: 4.0.27
+-- PHP Version: 4.3.11
+-- 
+-- Database: `stepmani_newstats`
+-- 
+CREATE DATABASE `stepmani_newstats`;
+USE stepmani_newstats;
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `player_stats`
+-- 
+
+CREATE TABLE player_stats (
+  key int(11) NOT NULL auto_increment,
+  round_ID int(11) NOT NULL default '0',
+  pid int(11) NOT NULL default '0',
+  score int(4) NOT NULL default '0',
+  grade tinyint(1) NOT NULL default '0',
+  difficulty tinyint(1) NOT NULL default '0',
+  feet tinyint(1) NOT NULL default '0',
+  toasty int(4) NOT NULL default '0',
+  marvelous int(4) NOT NULL default '0',
+  perfect int(4) NOT NULL default '0',
+  great int(4) NOT NULL default '0',
+  good int(4) NOT NULL default '0',
+  boo int(4) NOT NULL default '0',
+  miss int(4) NOT NULL default '0',
+  ok int(4) NOT NULL default '0',
+  ng int(4) NOT NULL default '0',
+  hmine int(4) NOT NULL default '0',
+  amine int(4) NOT NULL default '0',
+  maxcombo int(4) NOT NULL default '0',
+  options text,
+  timing tinyint(4) NOT NULL default '0',
+  PRIMARY KEY  (key),
+  KEY round_ID (round_ID),
+  KEY pid (pid)
+) TYPE=MyISAM;
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `player_totals`
+-- 
+
+CREATE TABLE player_totals (
+  pid int(11) NOT NULL default '0',
+  rounds int(11) NOT NULL default '0',
+  score int(11) NOT NULL default '0',
+  grade int(11) NOT NULL default '0',
+  difficulty int(11) NOT NULL default '0',
+  feet int(11) NOT NULL default '0',
+  toasty int(11) NOT NULL default '0',
+  marvelous int(11) NOT NULL default '0',
+  perfect int(11) NOT NULL default '0',
+  great int(11) NOT NULL default '0',
+  good int(11) NOT NULL default '0',
+  boo int(11) NOT NULL default '0',
+  miss int(11) NOT NULL default '0',
+  ok int(11) NOT NULL default '0',
+  ng int(11) NOT NULL default '0',
+  hmine int(4) NOT NULL default '0',
+  amine int(4) NOT NULL default '0',
+  maxcombo int(11) NOT NULL default '0',
+  seed int(11) NOT NULL default '0',
+  PRIMARY KEY  (pid),
+  KEY seed (seed)
+) TYPE=MyISAM;
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `rounds`
+-- 
+
+CREATE TABLE rounds (
+  round_ID int(11) NOT NULL auto_increment,
+  song_ID int(11) NOT NULL default '0',
+  playtime int(11) default NULL,
+  roomname varchar(25) NOT NULL default '',
+  PRIMARY KEY  (round_ID),
+  KEY song_ID (song_ID)
+) TYPE=MyISAM;
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `song_stats`
+-- 
+
+CREATE TABLE song_stats (
+  song_ID int(11) NOT NULL auto_increment,
+  played int(11) NOT NULL default '0',
+  title text NOT NULL,
+  subtitle text NOT NULL,
+  artist text NOT NULL,
+  PRIMARY KEY  (song_ID),
+  KEY played (played)
+) TYPE=MyISAM;
